@@ -18,5 +18,8 @@ node_modules/
 dist
 dist-ssr
 
+# Supabase CLI local temp/cache
+supabase/.temp/
+
 # Server functions ke liye koi extra (optional)
 server/api/*.js   # agar compiled JS generate ho to

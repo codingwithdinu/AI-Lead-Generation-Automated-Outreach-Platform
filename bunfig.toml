@@ -1,3 +1,0 @@
-[install]
-# Use pnpm as the package manager for this monorepo
-# Disable bun's native install to avoid conflicts with pnpm's lockfile
