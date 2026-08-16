@@ -146,7 +146,7 @@ This monorepo deploys to **three** services:
 
 ### 2) Frontend — Vercel
 
-1. On [vercel.com](https://vercel.com) → **Add New → Project**, import `AI-Lead-Generation-Automated-Outreach-Platform`. The included `vercel.json` already sets the correct build (`cd frontend && pnpm build`, output `frontend/dist`, Node 20).
+1. On [vercel.com](https://vercel.com) → **Add New → Project**, import `AI-Lead-Generation-Automated-Outreach-Platform`. The included `vercel.json` already sets the correct build (`cd frontend && pnpm build`, output `frontend/dist`). **Node 22** is picked up automatically from the `engines` field in `package.json` (Vercel does **not** support a `nodeVersion` field in `vercel.json`).
 2. Add **environment variables**:
    - `VITE_SUPABASE_URL`
    - `VITE_SUPABASE_PUBLISHABLE_KEY`
