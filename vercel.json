@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "buildCommand": "cd frontend && pnpm build",
+  "installCommand": "pnpm install --no-frozen-lockfile",
+  "framework": "vite",
+  "outputDirectory": "frontend/dist",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "nodeVersion": "20.x"
+}

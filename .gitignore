@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Environment files (sensitive)
+.env
+.env.*
+!.env.example
+
+# Vercel (deployment)
+.vercel
+
+# Build outputs (already there but ensure)
+.output
+.vinxi
+dist
+dist-ssr
+
+# Server functions ke liye koi extra (optional)
+server/api/*.js   # agar compiled JS generate ho to

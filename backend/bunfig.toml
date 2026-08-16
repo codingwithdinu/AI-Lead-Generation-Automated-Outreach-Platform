@@ -1,0 +1,3 @@
+[install]
+# Disable bun's package manager, use npm instead
+packageManager = "npm"
