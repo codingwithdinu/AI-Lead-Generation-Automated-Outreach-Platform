@@ -1,0 +1,21 @@
+# Keep the Docker build context small & never bake secrets into the image.
+
+.git
+.gitignore
+*.log
+
+# Node / build output
+node_modules
+**/node_modules
+dist
+**/dist
+
+# Environment files (secrets!) — pass via docker run -e / secret store
+.env
+.env.*
+!.env.example
+
+# Backend image only needs backend/ + root Dockerfile, so skip the rest
+frontend
+supabase
+frontend.log
