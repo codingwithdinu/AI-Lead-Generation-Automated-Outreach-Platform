@@ -5,6 +5,5 @@
   "framework": "vite",
   "outputDirectory": "frontend/dist",
   "cleanUrls": true,
-  "trailingSlash": false,
-  "nodeVersion": "22.x"
+  "trailingSlash": false
 }

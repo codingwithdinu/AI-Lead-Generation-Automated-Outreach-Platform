@@ -8,7 +8,7 @@
     "dev:backend": "cd backend && pnpm dev"
   },
   "engines": {
-    "node": ">=20.0.0",
+    "node": "22.x",
     "pnpm": ">=9.0.0"
   },
   "packageManager": "pnpm@10.7.0"
