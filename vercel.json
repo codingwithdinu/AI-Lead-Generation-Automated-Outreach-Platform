@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "buildCommand": "cd frontend && pnpm build",
-  "installCommand": "npm install --global pnpm@10.7.0 && pnpm install --no-frozen-lockfile",
+  "buildCommand": "npx --yes pnpm@10.7.0 --dir frontend run build",
+  "installCommand": "npx --yes pnpm@10.7.0 install --no-frozen-lockfile",
   "framework": "vite",
   "outputDirectory": "frontend/dist",
   "cleanUrls": true,
